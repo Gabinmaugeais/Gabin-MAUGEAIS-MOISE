@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Accueil - site internet de Gabin Maugeais-Moïse</title>
+        <link rel='stylesheet' id='style-css'  href='./style.css' type='text/css' media='all' />
+    </head>
+		
+    <body>
+		<div id="mySidenav" class="sidenav">
+			<a id="closeBtn" href="#" class="close">×</a>
+			<ul>
+			  <li><a href="#third_p">Qui suis-je ?</a></li>
+			  <li><a href="#first_p">Juste des images...</a></li>
+			  <li><a href="#second_p">Autres curiosités</a></li>
+			  <li><a href="#JSTP">A propos</a></li>
+			</ul>
+		  </div>
+		  
+		  <a href="#" id="openBtn">
+			<span class="burger-icon">
+			  <span></span>
+			  <span></span>
+			  <span></span>
+			</span>
+		  </a>
+		
+		<div id="bandeau">
+			<p>Bienvenue sur le site de</p>
+			<h1><img src="img/alien6.gif" width="50px" height="50px"/>Gabin Maugeais-Moïse</h1>
+		</div>
+		<div id="page-top">
+			<div id="page-txt">
+		<!-- <div id="third_p" class="alien">
+			<h2>L'auteur </h2>
+			<img src="img/alien6.gif" />
+		</div> -->
+    	<div id ="first_p" class="netb">
+        	<h2>Claude Monet au Japon en 2024...</h2>
+			<p>Claude Monet était attiré par la culture japonaise et notamment les estampes dont il s'est influencé. Il en possédait plus de 200 ! Cette collection est d'ailleurs visible à la <a href="https://fondation-monet.com/">fondation Monet</a> située à Giverny. A l'aide de moteur IA, j'ai essayé d'imaginer ce que Claude Monet aurait peint en 2024 en s'appuyant sur la culture japonaise moderne et notamment les mangas. Voici les résultats et quelques remarques sur ces images générées par intelligence artificielle.</p>
+			<h3>Un chateau japonais dans le style de Claude Monet</h3>
+			<table class="img_tab">
+				<tr><td><img src="img/bien reussie.jpg"  width="75%"/></td><td><img src="img/cascade sort de la porte.jpg"  width="75%"/></td></tr>
+				<tr><td><img src="img/escalier qui donne dans l'eau.jpg"  width="75%"/></td><td><img src="img/cerisier rate.jpg"  width="75%"/></td></tr>
+			</table>
+			
+    	</div>
+		<div id ="second_p" class="couleur">
+        	<h2>Quelques autres réflexions ou travaux</h2>
+    	</div>
+		<div id="JSTP">
+			<h2>Voici mon curriculum vitae</h2>
+			<!-- lien vers le CV à mettre ici-->
+			<embed src="doc/CV Gabin Maugeais Moise.pdf" width="75%" height="500" type="application/pdf"/>
+			
+    	</div>
+		
+    <footer class="footer-page  no-footer">
+	<!-- Copyright -->
+	<div class="copyright">
+		<div class="container">
+			<div class="row">
+				<div>
+					<small>© 2024 - Gabin Maugeais-Moïse</small>
+				</div>
+								<div>
+					<small><a href="#page-top" class="pull-right to-the-top">Haut de page <i class="fa fa-angle-up"></i></a></small>
+				</div>
+							</div>
+		</div>
+	</div><!-- / .copyright -->
+</footer>
+</div>
+</div>
+<script type="text/javaScript">
+	var sidenav = document.getElementById("mySidenav");
+	var openBtn = document.getElementById("openBtn");
+	var closeBtn = document.getElementById("closeBtn");
+
+	openBtn.onclick = openNav;
+	closeBtn.onclick = closeNav;
+
+	/* Set the width of the side navigation to 250px */
+	function openNav() {
+		  sidenav.classList.add("active");
+	}
+
+	/* Set the width of the side navigation to 0 */
+	function closeNav() {
+		  sidenav.classList.remove("active");
+	}
+</script>
+
+
+
+</body>
+</html>
