@@ -1,0 +1,158 @@
+body {
+  font-family: "Open Sans","Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 500;
+  background-image: url("img/estampe\ claudio.jpeg");
+  background-repeat: no-repeat;
+  background-position:top;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+#bandeau {
+  height: 200px;
+  /* background-image: url("img/m069.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%; */
+  color : orangered;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  margin-top: 1%;
+}
+
+#bandeau h1{
+  font-weight: 800;
+  padding-top: 100px;
+  color : rgb(23, 88, 23);
+  text-align: right;
+}
+
+#page-top{
+    background-color: white;
+    margin: -10px;
+}
+
+#page-txt{
+    margin: 20px;
+}
+
+h2 {
+    font-weight: 800;
+}
+
+.img_tab{
+  text-align: center;
+} 
+
+#first_p img:active{
+    scale: 1.5;
+}
+/* #second_p {
+  background-color: white;
+}
+#third_p {
+  background-color: white;
+} */ 
+
+.netb  h2{
+    /* width:45%;
+    position: relative; */
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: black;
+    color: white;
+}
+
+.couleur {
+    /* width:45%;
+    position: relative; */
+    padding-left: 2%;
+    padding-right: 2%;
+    /* margin-top: -2.5%;
+    margin-left: 50%; */
+    background-color: white;
+    color: white;
+}
+
+.couleur:hover {
+    background-color: red;
+    color: yellow;
+}
+
+.alien {
+    /* width:45%;
+    position:relative; */
+    padding-left: 2%;
+    padding-right: 2%;
+    color: white;
+}
+
+
+.alien:hover {
+    background-color: goldenrod;
+    color:blueviolet;
+}
+
+.alien img {
+    margin-left: 10%;
+}
+
+.alien img:hover {
+    scale:1,5;
+    transform: rotate(20deg);
+}
+
+/* Sidenav menu */
+.sidenav {
+    height: 100%;
+    width: 14%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -14%;
+    background-color: #e8e8e8;
+    padding-top: 60px;
+    transition: left 0.5s ease;
+  }
+  
+  /* Sidenav menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #111;
+  }
+  
+  .sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Active class */
+  .sidenav.active {
+    left: 0;
+  }
+  
+  /* Close btn */
+  .sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+
+  /* Icône burger */
+  .burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
