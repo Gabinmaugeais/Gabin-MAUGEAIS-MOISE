@@ -73,8 +73,7 @@ h2 {
 }
 
 .couleur:hover {
-    background-color: red;
-    color: yellow;
+    color: black;
 }
 
 .alien {
