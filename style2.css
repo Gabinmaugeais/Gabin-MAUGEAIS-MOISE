@@ -14,7 +14,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%; */
-  color : orangered;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 600;
   margin-top: 1%;
@@ -23,7 +22,6 @@ body {
 #bandeau h1{
   font-weight: 800;
   padding-top: 100px;
-  color : rgb(23, 88, 23);
   text-align: right;
 }
 
