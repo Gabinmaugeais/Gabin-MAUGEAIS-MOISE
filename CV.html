@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Accueil - site internet de Gabin Maugeais-Moïse</title>
+        <link rel="stylesheet" id="style-css"  href="style2.css" type="text/css" media="all" />
+    </head>
+		
+    <body>
+		<div id="mySidenav" class="sidenav">
+			<a id="closeBtn" href="#" class="close">×</a>
+			<ul>
+			  <li><a href="#third_p">Qui suis-je ?</a></li>
+			  <li><a href="#first_p">Juste des images...</a></li>
+			  <li><a href="#second_p">Autres curiosités</a></li>
+			  <li><a href="#JSTP">CV</a></li>
+			</ul>
+		  </div>
+		  
+		  <a href="#" id="openBtn">
+			<span class="burger-icon">
+			  <span></span>
+			  <span></span>
+			  <span></span>
+			</span>
+		  </a>
+		
+		<div id="bandeau">
+			<p>Bienvenue sur le site de</p>
+			<h1><img src="img/alien6.gif" width="50px" height="50px"/>Gabin Maugeais-Moïse</h1>
+		</div>
+		<div id="JSTP">
+			<h2>Voici mon curriculum vitae</h2>
+			<!-- lien vers le CV à mettre ici-->
+			<embed src="doc/CV Gabin Maugeais Moïse .pdf" width="75%" height="500" type="application/pdf"/>
+    	</div>
+		
+    <footer class="footer-page  no-footer">
+	<!-- Copyright -->
+	<div class="copyright">
+		<div class="container">
+			<div class="row">
+				<div>
+					<small>© 2024 - Gabin Maugeais-Moïse</small>
+				</div>
+								<div>
+					<small><a href="#page-top" class="pull-right to-the-top">Haut de page <i class="fa fa-angle-up"></i></a></small>
+				</div>
+							</div>
+		</div>
+	</div><!-- / .copyright -->
+</footer>
+</div>
+</div>
+<script type="text/javaScript">
+	var sidenav = document.getElementById("mySidenav");
+	var openBtn = document.getElementById("openBtn");
+	var closeBtn = document.getElementById("closeBtn");
+
+	openBtn.onclick = openNav;
+	closeBtn.onclick = closeNav;
+
+	/* Set the width of the side navigation to 250px */
+	function openNav() {
+		  sidenav.classList.add("active");
+	}
+
+	/* Set the width of the side navigation to 0 */
+	function closeNav() {
+		  sidenav.classList.remove("active");
+	}
+</script>
+
+
+
+</body>
+</html>
