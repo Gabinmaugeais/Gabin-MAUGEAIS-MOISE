@@ -103,7 +103,8 @@ h2 {
 
 /* Sidenav menu */
 .sidenav {
-    height: 100%;
+    color: white;
+    height: 100%;  
     width: 14%;
     position: fixed;
     z-index: 1;
@@ -154,7 +155,6 @@ h2 {
     height: 5px;
     background-color: black;
     margin: 6px 0;
-    color: white;
   }
 h3 {
     font-weight: 800;
